@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="autor" content="Alejandro Rios">
+
+		<title></title>
+
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|PT+Sans&display=swap" rel="stylesheet">
+		<link href="font/fontawesome/css/fontawesome.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+   		<link href="font/fontawesome/css/brands.css" rel="stylesheet">
+    	<link href="font/fontawesome/css/solid.css" rel="stylesheet">
+    	<link rel="stylesheet" href="Leaflet/leaflet.css">
+    	<link rel="stylesheet" href="css/style_conferencia.css">
+    	
+    </head>
+
+    <body>
+    	
+		<header class="site-header">
+			<div class="hero">
+				<div class="contenido-header">
+					<nav class="redes-sociales">
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-pinterest-p"></i></a>
+						<a href="#"><i class="fab fa-youtube"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+					</nav>
+					<div class="informacion-evento">
+						<div class="clearfix">
+							<p class="fecha"><i class="fas fa-calendar-times"></i> 12-12-12</p>
+							<p class="ciudad"><i class="fas fa-map-marker-alt"></i> La Boca, Arg</p>
+						</div>
+
+						<h1 class="nombre-sitio">GdlWebCamp</h1>
+						<p class="slogan">La mejor conferencia de <span>diseño web</span></p>
+					</div>
+				</div>
+			</div><!--fin hero-->
+		</header>
+
+		<div class="barra">
+			<div class="contenedor clearfix">
+				<div class="logo">
+					<img src="img/imgSitioWeb/logo.svg" alt="Logo">
+				</div>
+
+				<div class="menu-movil">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+
+				<nav class="navegacion-principal">
+					<a href="#">Conferencia</a>
+					<a href="#">Calenario</a>
+					<a href="#">Invitados</a>
+					<a href="#">Reservaciones</a>
+				</nav>
+			</div><!--contenedor-->
+		</div><!--barra-->
+
+		<section class="seccion contenedor">
+			<h2>La mejor conferencia de diseño web en español</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt nisi, doloremque assumenda, ipsam quas, dolore amet cumque fugiat dignissimos maiores nobis sint architecto omnis, vero voluptatum facilis. Expedita, aut. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis odit, perspiciatis voluptatem obcaecati optio excepturi. Nam deserunt at fuga dolor asperiores. Temporibus commodi dignissimos, modi quod eveniet aut magni minima.</p>
+		</section><!--seccion-->
+
+		<section class="programa">
+			<div class="contenedor-video">
+				<video autoplay loop poster="img/imgSitioWeb/bg-talleres.jpg">
+					<source src="img/video/video.mp4" type="video/mp4">
+					<source src="img/video/video.webm" type="video/webm">
+					<source src="img/video/video.ogv" type="video/ogv">
+				</video>
+			</div><!--contenedor video-->
+
+			<div class="contenido-programa">
+				<dic class="contenedor">
+					<div class="programa-evento">
+						<h2>Programa evento</h2>
+						<nav class="menu-programa">
+							<a href="#talleres"><i class="fas fa-code"></i>Talleres</a>
+							<a href="#conferencias"><i class="fas fa-comment"></i>Conferencias</a>
+							<a href="#seminarios"><i class="fas fa-university"></i>Seminarios</a>
+						</nav>
+
+						<div id="talleres" class="info-cursar ocultar clearfix">
+							<div class="detalle-evento">
+								<h3>Html, Css3 Y JavaScript</h3>
+								<P><i class="fas fa-clock"></i>16:00 hrs</P>
+								<P><i class="fas fa-calendar"></i>10 de Dic</P>
+								<P><i class="fas fa-user"></i>Oscar Alejandro Rios</P>
+							</div>
+						
+							<div class="detalle-evento">
+								<h3>Responsive Web Design</h3>
+								<P><i class="fas fa-clock"></i>20:00 hrs</P>
+								<P><i class="fas fa-calendar"></i>10 de Dic</P>
+								<P><i class="fas fa-user"></i>Oscar Alejandro Rios</P>
+							</div>
+							<a href="#" class="button float-right">Ver todos</a>
+						</div><!--Talleres-->
+
+						<div id="conferencias" class="info-cursar ocultar clearfix">
+							<div class="detalle-evento">
+								<h3>Como ser Freelance</h3>
+								<P><i class="fas fa-clock"></i>10:00 hrs</P>
+								<P><i class="fas fa-calendar"></i>10 de Dic</P>
+								<P><i class="fas fa-user"></i>Gregorio Sanchez</P>
+							</div>
+						
+							<div class="detalle-evento">
+								<h3>Tecnologías de Futuro</h3>
+								<P><i class="fas fa-clock"></i>17:00 hrs</P>
+								<P><i class="fas fa-calendar"></i>10 de Dic</P>
+								<P><i class="fas fa-user"></i>Susan Sanchez</P>
+							</div>
+							<a href="#" class="button float-right">Ver todos</a>
+						</div><!--Talleres-->
+
+						<div id="seminarios" class="info-cursar ocultar clearfix">
+							<div class="detalle-evento">
+								<h3>Diseño UI/UX para móviles</h3>
+								<P><i class="fas fa-clock"></i>10:00 hrs</P>
+								<P><i class="fas fa-calendar"></i>11 de Dic</P>
+								<P><i class="fas fa-user"></i>Harol García</P>
+							</div>
+						
+							<div class="detalle-evento">
+								<h3>Aprende a programar en una mañana</h3>
+								<P><i class="fas fa-clock"></i>17:00 hrs</P>
+								<P><i class="fas fa-calendar"></i>11 de Dic</P>
+								<P><i class="fas fa-user"></i>Susana Rivera</P>
+							</div>
+							<a href="#" class="button float-right">Ver todos</a>
+						</div><!--Talleres-->
+					</div><!--Programa-evento-->
+				</dic><!--Contenedor-->
+			</div><!--Contenido-programa-->
+		</section>
+
+		<section class="invitados contenedor seccion">
+			<h2>Nuestros invitados</h2>
+			<ul class="lista-invitados clearfix">
+				<li>
+					<div class="invitado">
+						<img src="img/imgSitioWeb/invitado1.jpg" alt="Invitado 1">
+						<p>Rafael Bautista</p>
+					</div>
+				</li>
+				<li>
+					<div class="invitado">
+						<img src="img/imgSitioWeb/invitado2.jpg" alt="Invitado 2">
+						<p>Shari Herrera</p>
+					</div>
+				</li>
+				<li>
+					<div class="invitado">
+						<img src="img/imgSitioWeb/invitado3.jpg" alt="Invitado 3">
+						<p>Gregorio Sanchez</p>
+					</div>
+				</li>
+				<li>
+					<div class="invitado">
+						<img src="img/imgSitioWeb/invitado4.jpg" alt="Invitado 4">
+						<p>Susana Rivera</p>
+					</div>
+				</li>
+				<li>
+					<div class="invitado">
+						<img src="img/imgSitioWeb/invitado5.jpg" alt="Invitado 5">
+						<p>Harold García</p>
+					</div>
+				</li>
+				<li>
+					<div class="invitado">
+						<img src="img/imgSitioWeb/invitado6.jpg" alt="Invitado 6">
+						<p>Susan Sanchez</p>
+					</div>
+				</li>
+			</ul>
+		</section>
+
+		<div class="contador parallax">
+			<div class="contenedor">
+				<ul class="resumen-evento clearfix">
+					<li><p class="numero">6</p> Invitados</li>
+					<li><p class="numero">15</p> Talleres</li>
+					<li><p class="numero">3</p> Días</li>
+					<li><p class="numero">9</p> Conferencias</li>
+				</ul>
+			</div>
+		</div>
+
+		<section class="precios seccion">
+			<h2>Precios</h2>
+			<div class="contenedor">
+				<ul class="lista-precios clearfix">
+					<li>
+						<div class="tabla-precio">
+							<h3>Pase por día</h3>
+							<p class="numero">$30</p>
+							<ul>
+								<li>Bocadillos gratis</li>
+								<li>Todas las conferencias</li>
+								<li>Todos los talleres</li>
+							</ul>
+							<a href="#" class="button hollow">Comprar</a>
+						</div>
+					</li>
+					<li>
+						<div class="tabla-precio">
+							<h3>Todos los días</h3>
+							<p class="numero">$50</p>
+							<ul>
+								<li>Bocadillos gratis</li>
+								<li>Todas las conferencias</li>
+								<li>Todos los talleres</li>
+							</ul>
+							<a href="#" class="button">Comprar</a>
+						</div>
+					</li>
+					<li>
+						<div class="tabla-precio">
+							<h3>Pase por 2 días</h3>
+							<p class="numero">$45</p>
+							<ul>
+								<li>Bocadillos gratis</li>
+								<li>Todas las conferencias</li>
+								<li>Todos los talleres</li>
+							</ul>
+							<a href="#" class="button hollow">Comprar</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<div id="mapa" class="mapas"></div>
+
+		<section class="seccion">
+			<h2>Testimoniales</h2>
+			<div class="testimoniales contenedor clearfix">
+				<div class="testimonial">
+					<blockquote>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus doloremque maxime tempora, quia architecto iure ipsum ipsa, corporis placeat accusantium dignissimos atque consequuntur perferendis maiores qui deleniti sunt quibusdam illo. Laborum quos, repellendus, eum laudantium aut ducimus voluptas nostrum? Magni nam quae delectus amet quibusdam eaque repellendus cumque error. Placeat, molestias, possimus.</p>
+						<footer class="info-testimonial clearfix">
+							<img src="img/imgSitioWeb/testimonial.jpg" alt="imagen testimonial">
+							<cite>Oswaldo Aponte Escobedo <span>Diseñador en @Prisma</span></cite>
+						</footer>
+					</blockquote>
+				</div>
+				<div class="testimonial">
+					<blockquote>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus doloremque maxime tempora, quia architecto iure ipsum ipsa, corporis placeat accusantium dignissimos atque consequuntur perferendis maiores qui deleniti sunt quibusdam illo. Laborum quos, repellendus, eum laudantium aut ducimus voluptas nostrum? Magni nam quae delectus amet quibusdam eaque repellendus cumque error. Placeat, molestias, possimus.</p>
+						<footer class="info-testimonial clearfix">
+							<img src="img/imgSitioWeb/testimonial.jpg" alt="imagen testimonial">
+							<cite>Oswaldo Aponte Escobedo <span>Diseñador en @Prisma</span></cite>
+						</footer>
+					</blockquote>
+				</div>
+				<div class="testimonial">
+					<blockquote>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus doloremque maxime tempora, quia architecto iure ipsum ipsa, corporis placeat accusantium dignissimos atque consequuntur perferendis maiores qui deleniti sunt quibusdam illo. Laborum quos, repellendus, eum laudantium aut ducimus voluptas nostrum? Magni nam quae delectus amet quibusdam eaque repellendus cumque error. Placeat, molestias, possimus.</p>
+						<footer class="info-testimonial clearfix">
+							<img src="img/imgSitioWeb/testimonial.jpg" alt="imagen testimonial">
+							<cite>Oswaldo Aponte Escobedo <span>Diseñador en @Prisma</span></cite>
+						</footer>
+					</blockquote>
+				</div>
+			</div>
+		</section>
+
+		<div class="newsletter parallax">
+			<div class="contenido contenedor">
+				<p>Registrate al newsletter:</p>
+				<h3>GdlWebCamp</h3>
+				<a href="registro.html" class="button transparente">Registro</a>
+			</div>
+		</div>
+
+		<section class="seccion">
+			<h2>Faltan</h2>
+			<div class="cuenta-regresiva">
+				<ul class="clearfix">
+					<li><p id="dias" class="numero"></p> Días</li>
+					<li><p id="horas" class="numero"></p> Horas</li>
+					<li><p id="minutos" class="numero"></p> Minutos</li>
+					<li><p id="segundos" class="numero"></p> Segundos</li>
+				</ul>
+			</div>
+		</section>
+
+		<footer class="site-footer">
+			<div class="contenedor clearfix">
+				<div class="footer-informacion">
+					<h3>Sobre <span>GdlWebCamp</span></h3>
+					<p>Veniam tempora hic, labore, explicabo voluptates porro atque inventore delectus iure eaque qui cumque blanditiis odio laboriosam repudiandae, nesciunt consequatur expedita rem. Veniam tempora hic, labore, explicabo voluptates porro atque inventore delectus iure eaque qui cumque blanditiis odio laboriosam repudiandae, nesciunt consequatur expedita rem. Veniam tempora hic, labore, explicabo voluptates porro atque inventore delectus iure eaque qui cumque blanditii</p>
+				</div>
+				<div class="ultimos-tweets">
+					<h3>Últimos <span>tweets</span></h3>
+					<ul>
+						<li>Veniam tempora hic, labore, explicabo voluptates porro atque inventore delectus iure eaque qui cumque blanditiis odio laboriosam repudiandae</li>
+						<li>Veniam tempora hic, labore, explicabo voluptates porro atque inventore delectus iure eaque qui cumque blanditiis odio laboriosam repudiandae</li>
+						<li>Veniam tempora hic, labore, explicabo voluptates porro atque inventore delectus iure eaque qui cumque blanditiis odio laboriosam repudiandae</li>
+					</ul>
+				</div>
+				<div class="menu">
+					<h3>Redes <span>sociales</span></h3>
+					<nav class="redes-sociales">
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-pinterest-p"></i></a>
+						<a href="#"><i class="fab fa-youtube"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+					</nav>
+				</div>
+			</div>
+
+			<p class="copyright">Todos los derechos reservados @AlejandroRios.</p>
+		</footer>
+
+		<script src="js/jsbloirplte/plugins.js"></script>		
+    	<script src="js/jquery.min.js"></script>
+    	<script src="js/jsbloirplte/modernizr-3.8.0.min.js"></script>
+		<!--<script src="js/popper.min.js"></script>-->
+		<script src="js/bootstrap.min.js"></script>
+		<script src="Leaflet/leaflet.js"></script>
+		<script src="js/plugin JQ/jquery.animateNumber.min.js"></script>
+		<script src="js/plugin JQ/jquery.countdown.min.js"></script>
+		<script src="js/plugin JQ/jquery.lettering.js"></script>
+		<script src="js/js-estilo.js"></script>
+
+    </body>
+
+</html>
